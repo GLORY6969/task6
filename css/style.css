@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(0, 0%, 95%);
+  font-size: 15px;
+  border-radius: 10px;
+}
+section {
+  width: 900px;
+  display: flex;
+  font-size: 15px;
+  margin: 100px auto;
+}
+img {
+  margin-top: 30px;
+}
+.one p {
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 25px;
+  font-family: "Lexend Deca";
+  font-weight: 400;
+}
+.one h3 {
+  font-size: 40px;
+  color: hsl(0, 0%, 95%);
+  margin: 30px 0px;
+  font-family: "Big Shoulders Display";
+  font-weight: 700;
+}
+.two p {
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 25px;
+  font-family: "Lexend Deca";
+  font-weight: 400;
+}
+.two h3 {
+  font-size: 40px;
+  color: hsl(0, 0%, 95%);
+  margin: 30px 0px;
+  font-family: "Big Shoulders Display";
+  font-weight: 700;
+}
+.three p {
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 25px;
+  font-family: "Lexend Deca";
+  font-weight: 400;
+}
+.three h3 {
+  font-size: 40px;
+  color: hsl(0, 0%, 95%);
+  margin: 30px 0px;
+  font-family: "Big Shoulders Display";
+  font-weight: 700;
+}
+.one {
+  background-color: hsl(31, 77%, 52%);
+  padding: 30px 50px;
+  width: 300px;
+  border-radius: 10px 0px 0px 10px;
+}
+.two {
+  background-color: hsl(184, 100%, 22%);
+  padding: 30px;
+  width: 300px;
+}
+.three {
+  background-color: hsl(179, 100%, 13%);
+  padding: 30px;
+  width: 300px;
+  border-radius: 0px 10px 10px 0px;
+}
+.one .btn {
+  color: hsl(31, 77%, 52%);
+}
+.two .btn {
+  color: hsl(184, 100%, 22%);
+}
+.three .btn {
+  color: hsl(179, 100%, 13%);
+}
+.btn {
+  margin-top: 80px;
+  margin-bottom: 15px;
+  background-color: hsl(0, 0%, 95%);
+  border: 3px solid hsl(0, 0%, 95%);
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-family: "Lexend Deca";
+  font-weight: 400;
+}
+.one .btn:hover {
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+  transition: 0.6s;
+  cursor: pointer;
+}
+.two .btn:hover {
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+  transition: 0.6s;
+  cursor: pointer;
+}
+.three .btn:hover {
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+  transition: 0.6s;
+  cursor: pointer;
+}
+@media screen and (max-width: 420px) {
+  section {
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px;
+  }
+  .one {
+    width: 250px;
+    border-radius: 10px 10px 0 0;
+  }
+  .two {
+    width: 250px;
+  }
+  .three {
+    width: 250px;
+    border-radius: 0 0 10px 10px;
+  }
+}
